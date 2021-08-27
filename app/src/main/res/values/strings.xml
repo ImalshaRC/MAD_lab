@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">calculation</string>
+    <string name="button4">btn4</string>
+    <string name="button5">bttn4</string>
+    <string name="suggest_meal">sggt_meal</string>
+    <string name="cteatedPlans">created plans</string>
+    <string name="suggestPlan">suggest plan</string>
+    <string name="customPlan">custom plan</string>
+    <string name="sideView">side view</string>
+    <string name="submit1">sumt1</string>
+    <string name="viewPlans">viewplans</string>
+    <string name="viewPlanSubmit">view Plan sbmt</string>
+    <string name="addMealPlan">add meal plan</string>
+    <string name="breakfast">bkft</string>
+    <string name="Lunch">lnch</string>
+    <string name="dinner">dnnr</string>
+    <string name="view_Week">view week</string>
+    <string name="remove_week">remove week</string>
+    <string name="meals_list">meals list</string>
+    <string name="add_week">add week</string>
+</resources>

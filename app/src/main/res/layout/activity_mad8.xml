@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mad8">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="207dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="48dp"
+        android:text="User reviews"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.622"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="294dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="64dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:text="Review's body                    3/5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="294dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:text="Review's body                    4/5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:text="User name"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName4"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName4" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="44dp"
+        android:layout_height="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView21"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName4"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName4"
+        app:srcCompat="@drawable/user2" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="294dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:fontFamily="sans-serif-black"
+        android:inputType="textPersonName"
+        android:text="Review's body                    5/5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:text="User name"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName3" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="131dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginRight="116dp"
+        android:text="User name"
+        app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName7"
+        app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName7" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="44dp"
+        android:layout_height="24dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView20"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName3"
+        app:layout_constraintTop_toTopOf="@+id/textView20"
+        app:srcCompat="@drawable/user2" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="44dp"
+        android:layout_height="24dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView35"
+        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName7"
+        app:layout_constraintTop_toTopOf="@+id/textView35"
+        app:srcCompat="@drawable/user2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
